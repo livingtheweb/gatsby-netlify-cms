@@ -1,5 +1,6 @@
 backend:
-  name: gatsby-blog
+  name: git-gateway
+  branch: main # Branch to update (optional; defaults to master)
 
 site_url: http://localhost:8000/
 
