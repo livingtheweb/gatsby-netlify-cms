@@ -1,6 +1,7 @@
 import * as React from "react"
 import { Link, graphql } from "gatsby"
 
+import { Helmet } from 'react-helmet'
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
@@ -24,6 +25,10 @@ const BlogIndex = ({ data, location }) => {
 
   return (
     <Layout location={location} title={siteTitle}>
+      {/* El código agregado dentro de Helmet Gatsby lo colocará dentro de la wtiqueta head */}
+      <Helmet>
+        <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+      </Helmet>
       <Bio />
       <ol style={{ listStyle: `none` }}>
         {posts.map(post => {
