@@ -2,7 +2,7 @@ backend:
   name: git-gateway
   branch: main # Branch to update (optional; defaults to master)
 
-site_url: http://localhost:8000/
+site_url: https://gatsby-netlify-cms-01.netlify.app
 
 publish_mode: editorial_workflow
 media_folder: assets/uploads
