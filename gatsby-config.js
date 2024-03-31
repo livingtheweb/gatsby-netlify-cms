@@ -9,15 +9,15 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `Gatsby and GitHub as back-end`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Mariano Pistone`,
+      summary: `Otra forma de administrar y publicar contenido.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
+    description: `Sin DB - En lugar de ello todo se basa en GitHub y los commits.`,
+    siteUrl: `https://testing.com`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `marianopistone`,
     },
   },
   plugins: [
@@ -110,7 +110,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
+        name: `Gatsby and GitHub as back-end`,
         short_name: `Gatsby`,
         start_url: `/`,
         background_color: `#ffffff`,
